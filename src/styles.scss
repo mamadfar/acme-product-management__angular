@@ -1,9 +1,8 @@
-div.card-header {
- font-size: large;
-}
-
 div.card {
-  margin-top: 10px
+  margin-top: 10px;
+  &-header {
+    font-size: large;
+   }
 }
 
 .table {
@@ -12,7 +11,7 @@ div.card {
 
 a {
   text-decoration: none; 
-}
-a:hover {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 }
